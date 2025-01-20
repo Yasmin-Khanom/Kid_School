@@ -1,0 +1,151 @@
+
+.quicksand-normal {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 300px;
+  font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/* sheard styles */
+.display-flex{
+    display: flex;
+}
+
+/* header styles */
+.navbar{
+    width: 1440px;
+    height: 120;
+    border: 2px solid salmon;
+    padding: 0px 20px;
+    gap: 180px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.logo{
+    width: 62px;
+    height: 62px;
+    word-spacing: 11px;
+    margin: 10px;
+}
+h3{
+    width: 129px;
+    height: 30px;
+    position: 74px 17px;
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+    line-height: 30px;
+    margin: 10px;
+    gap: 182px;
+}
+.menu-item1,.menu-item2, .menu-item3 ,.menu-item4 {
+    list-style: none;
+    margin: 10px;
+    margin-right: 32px;
+}
+.menu-link1, .menu-link2, .menu-link3, .menu-link4{
+    text-decoration: none;
+   
+}
+.menu-item1{
+    width: 58px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px 0px; 
+}
+.menu-link1{
+    color: #FEA301;  
+}
+.menu-link1:hover{
+    color:orchid;
+}
+.menu-item2{
+    width: 57px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: medium;
+    line-height: 30px 0px; 
+}
+.menu-link2{
+    color:#01ACFD;
+}
+.menu-link2:hover{
+    color: tomato;
+}
+.menu-item3{
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: medium;
+    line-height: 30px 0px; 
+}
+.menu-link3{
+    color: rgba(5, 212, 223, 1);
+}
+.menu-link3:hover{
+    color:darkorange;
+}
+.menu-item4{
+    width: 96px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px 0px; 
+}
+.menu-link4{
+    color: rgba(93, 88, 239, 1);
+}
+.menu-link4:hover{
+    color: coral;
+}
+
+.nav-btn{
+    width: 197px;
+    height: 50px;
+    padding: 10px 10px;
+    background-color: #FEA301;
+    color: white;
+    border-radius: 12px;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+.nav-btn:hover{
+    background-color: tomato;
+}
+/* banner styles */
+h1{
+    width: 640px;
+    height: 183px;
+    font-size: 56px;
+    font: bold;
+    color: black;
+    line-height: 61px 0px;
+}
+.first{
+    color: #FEA301;
+}
+.second{
+    color: #01ACFD;
+}
+
+.bn-description{
+    width: 183px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+}
+.bn-btn{
+    width: 103px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: black;
+}
